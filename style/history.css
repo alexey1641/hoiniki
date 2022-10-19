@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul,
+ol{
+    list-style: none;
+}
+img{
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-weight: inherit;
+    font-size: inherit;
+}
+html,
+body{
+    height: 100%;
+    line-height: 1;
+    font-size: 14px;
+    font-weight: 400;
+    font-family:'Roboto';
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    max-width: 1110px;
+    padding: 0 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+/* .cantainer{
+    max-width: 1720px;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+} */
+.desc-header__top{
+    font-size: 26px;
+    font-weight: 700;
+    color: #1D1D36;
+}
+.header-top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ul-header__middle{
+    display: flex;
+
+}
+.header-middle:hover{    transition: 0.4s red color;
+}
+.li_header__middle{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 40px;
+    font-size: 16px;
+  
+}
+.li_header__middle:last-child{
+    padding-right: 0px;
+}
+.header-middle{
+    background-color:  #1d1d36;
+}
+a.limk-header__middle{
+        color: white;
+        transition: .4s linear color;
+
+}
+a.limk-header__middle:hover{
+    transition: .3s ease-in-out color;
+    color: #5c5adb;
+
+}
+.a1{
+    color: #9f97b8;
+}
+.people-info{
+    display: flex;
+    text-align: justify;
+    align-items: center;
+}
+.describe-people__box{
+    padding-left: 30px;
+    font-size: 16px;
+    line-height: 110%;
+}
+.photo-people{
+    width: 400px;
+    height: 300px;
+}
+.m70{
+   
+}
+.box-about__people{
+}
+.name-of__people{
+    padding-bottom: 30px;
+    margin-left: 370px;
+    margin-top: 40px;
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.text-about__people{
+    background-color: white;
+}
+.glav-text__popular{
+    padding-top: 40px;
+    color: black;
+    font-size: 48px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+.footer-top{
+    margin-top: 150px;
+    background: #1D1D36;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
+}
+.text-icon__footer{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.footer-image{
+    display: flex;
+}
+.nav-footer__text{
+    color: #908FCD;
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+.footer-nav{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.spisok-nav__footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.cos-footer__glav{
+    color: white;
+    font-size: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.cos-footer__glav:last-child{
+    margin-bottom: 0px;
+}
+.footer-bottom__text{
+    color: #90909C;
+    font-size: 14px;
+    margin: 20px 0px;
+}
+.footer-bottom{
+    background: white;
+    display: flex;
+    justify-content: center;
+}
