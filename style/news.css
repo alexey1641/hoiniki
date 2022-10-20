@@ -136,6 +136,11 @@ a.limk-header__middle:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.n4{
+    background: url('../img/435890098543809098345.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .box-for__text{
     display: flex;
     align-items: center;
